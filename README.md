@@ -1,16 +1,64 @@
-# React + Vite
+# 🐾 Wildlife Photo Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
 
-Currently, two official plugins are available:
+This is a simple and fun React game where you try to “snap a photo” of animals before they run across the screen!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Each round, a random animal appears and starts moving. Your goal is to click it in time before it escapes. The faster you are, the better your score!
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎮 How It Works
 
-## Expanding the ESLint configuration
+* A random animal appears on the screen
+* The animal moves from left to right
+* Click the animal to capture it 📸
+* Each successful click increases your score
+* If the animal escapes, the round still continues
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+* React (useState, useEffect)
+* Bootstrap
+* CSS
+
+---
+
+## 🚀 Running the App
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Install Bootstrap:
+
+```bash
+npm install bootstrap
+```
+
+3. Start the app:
+
+```bash
+npm run dev
+```
+
+4. Open in your browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 💡 What I Learned
+
+This project helped me practice:
+
+* Managing state in React
+* Using effects to update the screen
+* Handling user clicks and events
+* Structuring a small interactive app
