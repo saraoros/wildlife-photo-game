@@ -1,0 +1,64 @@
+.app-shell {
+  background-color: #ffeef5;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.game-title {
+  color: #d63384;
+  font-weight: bold;
+}
+
+.game-subtitle {
+  color: #a61e4d;
+}
+
+.game-panel {
+  background-color: white;
+  border: 2px solid #f8c2d8;
+}
+
+.stat-card {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.restart-btn {
+  background-color: #d63384;
+  color: white;
+  border: none;
+}
+
+.restart-btn:hover {
+  background-color: #c22575;
+}
+
+.game-area {
+  height: 400px;
+  background-color: #e6ffe6;
+  border: 2px solid #ccc;
+}
+
+.message-pill {
+  top: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.animal-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.animal-btn:hover {
+  transform: scale(1.1);
+}
+
+.capture-effect {
+  font-size: 2rem;
+}
+
+.instruction-text {
+  color: #555;
+}
